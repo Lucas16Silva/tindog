@@ -1,0 +1,178 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font: 900 3.5rem/1.5 "Montserrat";
+    color: #fff;
+    line-height: 1.5;
+}
+
+h2 {
+    font: 800 2.6rem/1.5 "Montserrat";
+}
+
+h3 {
+    font: 800 1.5rem/1.5 "Montserrat";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font: 300 1.2rem/1.5 "Montserrat";
+}
+
+.navbar-brand {
+    font: 500 2.5rem/1.5 "Ubuntu";
+    right: 15px;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonial Section  */
+
+
+#testimonials { 
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+.carousel-item {
+    background-color: #ef8172;
+    padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Footer */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 100px 150px;
+    text-align: center;
+}
+
+.cta-heading {
+    font: 900 3.5rem/1.5 "Montserrat";
+    color: #fff;
+    line-height: 1.5;
+}
+
+
+#footer {
+    padding: 100px;
+    text-align: center;
+}
+
+.social-icon {
+    margin-left: 20px;
+    padding: 30px 0;
+}
+
+.copyright {
+    font: 600 1rem/1.5 "Montserrat";
+}
+
+@media (max-width: 1028px) {
+    
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+
+
+
+
